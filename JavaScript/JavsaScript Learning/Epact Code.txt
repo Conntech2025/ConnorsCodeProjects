@@ -1,0 +1,24 @@
+def main():
+    year = int(input("Enter a year: "))
+
+    # Calculate century
+    C = year // 100
+
+    # Calculate epact
+    epact = (8 + (C // 4) - C + ((8 * C + 13) // 25) + 11 * (year % 19)) % 30
+
+    if epact < 1:
+        epact += 30
+
+    # Calculate the date of Easter
+    k = year % 19
+    m = (C - C // 4 - (8 * C + 13) // 25 + 19 * k + 15) % 30
+    d = (m + epact) % 31
+    month = 4 if (m + epact) // 31 == 0 else 5  # April or May
+    day = d + 1  # Day of the month
+
+    # Print the result
+    print(f"Easter in {year} falls on: {day}/{month}")
+
+if __name__ == "__main__":
+    main()

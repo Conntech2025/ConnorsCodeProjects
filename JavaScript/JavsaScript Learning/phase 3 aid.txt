@@ -1,0 +1,39 @@
+This assignment is asking you to analyze and describe two key types of architectures—Enterprise Architecture and Application Architecture—within a specific scenario you developed in a previous assignment (e.g., providing consumer banking services). You need to focus on several critical areas related to these architectures, including existing capabilities, risk management, and strategic planning.
+
+Here’s a breakdown of what to include for each architecture type:
+
+### 1. Enterprise (Network and System) Architectures
+
+- **Existing Capability**: Assess the current state of the enterprise architecture. What are the existing systems, networks, and processes that support the business? Identify strengths and weaknesses.
+  
+- **Risk Management**: Discuss the risks associated with the enterprise architecture, including potential vulnerabilities in the network or system design and how these can impact business operations.
+  
+- **Strategic Planning**: Align the enterprise architecture with the overall strategic goals of the organization. What are the mission-critical services, non-mission critical services, long-term goals, and value-added services? 
+
+- **Scope**: Define the boundaries of the enterprise architecture, what it encompasses, and what it does not.
+  
+- **Formal Strategic Plan**: Provide a high-level overview of the strategic plan that guides the enterprise architecture.
+  
+- **Requirements Specifications**: Highlight the requirements that the architecture must meet based on business needs.
+  
+- **System Boundaries and Constraints**: Discuss the limits within which the architecture must operate and any constraints it faces (e.g., regulatory, financial).
+  
+- **Security**: Consider the security measures and policies that need to be integrated into the architecture.
+  
+### 2. Application Architectures
+
+- **Existing Capability**: Analyze the current applications in use. What functionalities do they provide, and how do they support business operations?
+
+- **Risk Management**: Identify risks related to the application architecture, such as data breaches or software failures, and discuss mitigation strategies.
+  
+- **Strategic Planning**: Relate the application architecture to the strategic goals of the organization, focusing on how applications can drive business value.
+  
+- **Development and Release Process**: Describe how applications are developed and released, including methodologies (e.g., Agile, Waterfall) and best practices.
+
+### Contextual Framework
+
+For both sections, you may include models (like the SABSA model) to visually represent the relationships between business needs and architectural components. Ensure that your analysis reflects the scenario from your previous assignment, integrating specific details about the services offered, mission-critical and non-mission critical services, and any other relevant aspects.
+
+### Submission Format
+
+Your submission should be in a Word document, clearly divided into the two sections (Enterprise and Application architectures), and structured as outlined above. Aim for concise yet comprehensive paragraphs that convey your understanding and analysis effectively.

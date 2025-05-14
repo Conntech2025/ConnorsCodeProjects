@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Area of a Circle 2</title>
+    <!-- This project will determine the area of a circle-->
+    <!-- Connor Seagraves-->
+  <!--------------------------------------------------------->
+    <meta charset = "utf-8">
+    <style type = "text/css"></style>
+    <script src="Script 1 Connor Seagraves"></script>
+  </head>
+  <body>
+      <h1>Calculating your Circle Dimensions</h1>
+      <p>
+          <form action = "" method = "" id="Circle">
+              <label for = "textbox"> Enter radius in inches: </label>
+              <input type = "text" id = "frmradius" name = "Radius"> <br>
+              
+              <label for = "textbox"> Enter depth in inches: </label>
+              <input type = "text" id = "frmdepth" name = "Depth">
+              <br>
+              <hr>
+              
+              <input type = "button" onclick = "calc()" value = "Calculate results">
+              <input type = "submit" onclick = "Clear()" value = "clear results"> <br>
+              <br>
+              
+              <label for = "textbox"> Diameter:</label>
+              <input type = "text" id = "frmdiameter" name = "area"><br>
+              
+              <label for = "textbox"> Area:</label>
+              <input type = "text" id = "frmarea" name = "area"><br>
+              
+              <label for "textbox"> Circumference:</label>
+              <input type = "text" id = "frmcircumference" name = "circumference"><br>
+              
+              <label for = "textbox"> Volume:</label>
+              <input type = "text" id = "frmvolume" name = "volume"><br>
+          </form>
+      </p>
+      <!-- Extra credit right?-->
+      
+</body>
+</html>
