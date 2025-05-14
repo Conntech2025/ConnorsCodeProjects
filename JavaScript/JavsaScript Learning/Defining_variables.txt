@@ -1,0 +1,7 @@
+# Defining variables
+name = "Alice"
+age = 30
+
+# Printing variables
+print("Name:", name)
+print("Age:", age)

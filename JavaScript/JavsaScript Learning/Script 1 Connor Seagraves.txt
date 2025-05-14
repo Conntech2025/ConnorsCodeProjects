@@ -1,0 +1,41 @@
+<script type = "text/javascript">
+{
+  
+function CalculateArea(radi)
+{ inRadi = parseInt(document.getElementById('frmRadius').value); //string to Integer
+
+  if (0 < radi)
+     print("The area of the circle is " + (radi * radi * PI));
+  else
+      print("Error - radius must be a whole number greater than 0.");
+  return false;
+}
+function calc()
+  { var the Form = document.form["Circle"];
+  var inRadius = parseFloat(document.getElementById('frmradius').value) || 0;
+  var inDepth = parseFloat(document.getElementById('frmdepth').value) || 0;
+  var inDiameter = inRadius * 2;
+  const PI = 3.149;
+  var circumference = (2 * inRadius * PI);
+  var area = (inRadius * inRadius * PI);
+  var volume = (4/3 * PI (inRadius * inRadius * inRadius));
+  
+  document.getElementById('frmdiameter').value = inDiameter;
+  document.getElementById('frmarea').value = area;
+  document.getElementById('frmvolume').value = volume;
+  document.getElementById('frmcircumference').value = volume;
+  document.getElementById('frmdepth').value = inDepth;
+  
+   }
+   
+  function Clear()
+    { document.getElementById('frmdiameter').value = "";
+      document.getElementById('frmarea').value = "";
+      document.getElementById('frmvolume').value = "";
+      document.getElementById('frmcircumference').value = "";
+      document.getElementById('frmdepth').value = "";
+      document.getElementById('frmradius').value = "";
+      document.getElementById('frmradius').focus();
+    }
+}
+</script>
